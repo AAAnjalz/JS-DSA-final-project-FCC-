@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: beige;
+}
+
+.head {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#search-input {
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 770px;
+}
+
+#search-button {
+  border: 0;
+  outline: 0;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  background: gray;
+  cursor: pointer;
+}
+#search-button:hover {
+  box-shadow: 2px 2px 2px;
+}
+
+#pokemon-name {
+  margin-left: 700px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+#pokemon-id {
+  position: absolute;
+  left: 880px;
+  top: 247px;
+}
+
+#weight {
+  margin-left: 700px;
+  margin-top: 10px;
+}
+#height {
+  position: absolute;
+  left: 790px;
+  top: 278px;
+}
+
+#sprite-container {
+  position: absolute;
+  left: 790px;
+  top: 350px;
+}
+
+#types {
+  margin-left: 700px;
+  margin-top: 200px;
+  max-width: 150px;
+  border-radius: 10px;
+  background-color: aquamarine;
+  padding: 10px;
+}
+
+#hp {
+  margin-top: 20px;
+  margin-left: 700px;
+}
+#attack {
+  margin-top: 10px;
+  margin-left: 700px;
+}
+#defense {
+  margin-top: 10px;
+  margin-left: 700px;
+}
+
+#special-attack {
+  margin-top: 10px;
+  margin-left: 700px;
+}
+#special-defense {
+  margin-top: 10px;
+  margin-left: 700px;
+}
+#speed {
+  margin-top: 10px;
+  margin-left: 700px;
+}
+
+span {
+  margin-left: 10px;
+}
